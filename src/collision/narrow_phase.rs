@@ -20,6 +20,8 @@ use bevy::{
     },
     prelude::*,
 };
+use bevy::diagnostic::Diagnostics;
+use crate::diagnostics::PhysicsDiagnosticsPlugin;
 
 /// Computes contacts between entities and generates contact constraints for them.
 ///
